@@ -8,15 +8,19 @@ import { UserMetaDataService } from './Services/usermetadata.service';
 import { MatButtonModule, MatCheckboxModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { CandidateDetailsComponent } from './Components/candidate-details/candidate-details.component';
 import { WrapperComponent } from './Components/wrapper/wrapper.component';
+import { HeaderComponent } from './Components/header/header.component';
+import { MainContainerComponent } from './Components/main-container/main-container.component';
+import { FooterComponent } from './Components/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CandidateDetailsComponent,
-    WrapperComponent
+    WrapperComponent,
+    HeaderComponent,
+    MainContainerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

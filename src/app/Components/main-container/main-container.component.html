@@ -1,0 +1,92 @@
+<div class="container">
+	<div id="CandidateDetails">
+		<div class="jumbotron">
+			<h2 class="text-center"> Hello, My Name is {{ UserMetaData.CandidateDetails.Name }} </h2>
+			
+		</div>
+	</div>
+	<div id="Skills">
+		<div class="panel panel-default">
+		    <div class="panel-heading"> <h4> Technical Skills </h4> </div>
+		    <div class="panel-body">
+		    	<div class="row">
+		    		<div class="col-sm-6">
+		    			<div class="frontend">
+				    		<div class="title">
+				    			<h4> FrontEnd </h4>
+				    		</div>
+				    		<ul>
+								<li *ngFor="let skill of UserMetaData.Skills.FrontEnd">
+									{{ skill }}
+								</li>
+							</ul>
+				    	</div>
+		    		</div>
+		    		<div class="col-sm-6">
+		    			<div class="backend">
+				    		<div class="title">
+				    			<h4> BackEnd </h4>
+				    		</div>
+				    		<ul>
+								<li *ngFor="let skill of UserMetaData.Skills.BackEnd">
+									{{ skill }}
+								</li>
+							</ul>
+				    	</div>
+		    		</div>
+		    	</div>				    	
+		    </div>
+		 </div>	 
+	</div>
+	<div id="Tools">
+		<div class="panel panel-default">
+			<div class="panel-heading"> <h4> Tools </h4> </div>
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul>
+							<li *ngFor="let tool of UserMetaData.Tools">
+								{{ tool }}
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="Experiences">
+		<div class="panel panel-default">
+			<div class="panel-heading"> <h4> Professional Experience </h4> </div>
+			<div class="panel-body">
+				<ul>
+					<li *ngFor="let experience of UserMetaData.Experiences">
+						<div class="exp-details">
+							<div class="exp-header">
+								<span class="company-name"> {{experience.CompanyName}} </span>
+								<span class="duration"> [{{experience.Duration}}] </span>
+								<span class="designation"> [{{experience.Designation}}] </span>
+							</div>							
+							<div class="responsibilites">
+								<ul>
+									<li *ngFor="let responsibility of experience.Responsibility"> 
+										{{ responsibility }}
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div id="Education">
+		<div class="panel panel-default">
+			<div class="panel-heading"> <h4> Education </h4> </div>
+			<div class="panel-body">
+				
+			</div>
+		</div>
+	</div>
+</div>
