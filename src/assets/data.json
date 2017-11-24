@@ -1,0 +1,154 @@
+{
+	"CandidateDetails": {
+		"Name": "Umesh Chaurasiya",
+		"Email":"chaurasiyaumesh9@gmail.com",
+		"Mobile": "+91-8407907092",
+		"Photo":""
+	},
+	"Skills":{
+		"FrontEnd":[
+			"XHTML / HTML 4.0 / HTML5",
+			"CSS / CSS3",
+			"Bootstrap",
+			"Materialize CSS Framework",
+			"CSS preprocessor, SASS",
+			"JavaScript",
+			"Angular JS",
+			"Backbone JS",
+			"Underscore JS, Handlebar[Template engine]",
+			"jQuery",
+			"GWT (Google web toolkit)",
+			"Jasmine, Karma (Testing framework)"
+		],
+		"BackEnd":[
+			"Node JS/Express",
+			"MongoDB",
+			"SuiteScript (SuiteCommerce powered by NetSuite Oracle)"
+		]
+	},
+	"Tools":[
+		"Sublime Text Editor, Edit Plus, Eclipse",
+		"Adobe Photoshop",
+		"GitHub/ Bit bucket",
+		"Grunt",
+		"Bower"
+	],
+	"OtherSkills":[
+		"Basic understanding of PHP, Java, .Net, MySQL, Linux"
+	],
+	"Experiences":[
+		{
+			"CompanyName": "Adapty Solutions Private Limited, Mumbai",
+			"Designation": "Teach Lead",
+			"Duration": "Feb 2017 - Present",
+			"Responsibility":[
+				"Understand Client Requirement directly from business and Analysis on existing functionalities and compare what they expected and determined what will be the impact on whole Application and what will be possible technically and according to analysis created Functional and technical detail design document.",
+				"Analyzed whole project scope and determined what will be more user friendly and technically good and how we can do this in less code.",
+				"Handled various phases of UI development based on specifications.",
+				"Lead team of developers, assign task, daily reporting, communications with onsite clients.",
+				"Worked with Project Manager to understand business objectives and provide technical assessments, UI recommendations, Risk analysis, and accurate development estimates.",
+				"Multi-Site SuiteCommerce Advanced development and integration with NetSuite ERP.",
+				"SuiteCommerce Advanced module customization and development",
+				"Version control between branches and servers using Visual Studio and GitHub",
+				"Determine appropriate architecture, and other technical solutions, and make relevant recommendations to clients.",
+				"Worked closely with applications development and operation leads to understand operational workflow and existing inefficiencies that need to be addressed.",
+				"Translate user requirements and complex business processes into highly usable, highly interface Web Applications.",
+				"Analyzed and trouble shoot existing program code and correct errors as required.",
+				"Ability to multi-task, react quickly to shifting priorities and meet deadlines.",
+				"Excellent attention to detail both front and back end."
+			]
+		},{
+			"CompanyName": "Adapty Solutions Private Limited, Mumbai",
+			"Designation": "Sr. UI Developer",
+			"Duration": "Nov 2015 - Feb 2017",
+			"Responsibility": [
+				"Write well deigned, testable, efficient code by using best software development practices.",
+				"Create websites layout / user interface by using standard HTML/CSS practices.",
+				"Integrate data from various back-end services &amp; databases.",
+				"Gather & refine specifications and requirements based on technical needs.",
+				"Create & maintain software documentation along with the checklists",
+				"Being responsible for maintaining, expanding and scaling our site.",
+				"Stay plugged into emerging technologies/industry trends and apply them into operations & activities.",
+				"Cooperate with web designers to match visual design intent."
+			],
+			"Main Duties":[
+				"Translate mockup Photoshop/Fireworks images to code",
+				"Develop pixel perfect pages that meet design requirements",
+				"jQuery/CSS3 based animations",
+				"Keep the site up-to-date with the latest web technologies",
+				"Manage scalable and cross-browser code across the site",
+				"Keep consistency of user experience design",
+				"Develop responsive web HTMLs",
+				"Guide other developers during development.",
+				"Work closely with designer to translate design to code",
+				"Create and maintain responsive UI across devices",
+				"Code and deploy front-end using jQuery, JS, CSS3 & HTML5",
+				"Work closely with server-side developers to integrate front-end code with the platform's backend",
+				"Set and maintain style sheets and patterns for all UI interaction points",
+				"Provide accurate timelines for every project",
+				"Maintain a high-awareness of industry trends with respect to providing superior user experience across a wide family of devices.",
+				"Understanding of mobile browser capabilities and restrictions",
+				"Creating cross-browser, cross-platform, responsive solutions."
+			]
+		},{
+			"CompanyName": "Antfarm Business Incubator Private Limited, Mumbai",
+			"Designation": "JavaScript Developer",
+			"Duration": "Nov 2014 - May 2015",
+			"Responsibility": [
+				"Develop new product features and new applications as well as maintaining and supporting existing applications.",
+				"Deliver high quality code that is maintainable and readable and adheres to our coding standards.",
+				"Translate wireframes, comps, and functional requirements into functional XHTML/ CSS/ JavaScript.",
+				"Develop standards compliant mark-up and code CSS2 / CSS3 ,Object Oriented JavaScript",
+				"Ensure compatibility across browsers as well as various devices. i.e. desktop, iPad, Mobiles"
+			]
+		},{
+			"CompanyName": "Ugam Solutions Private Limited, Mumbai",
+			"Designation": "Programmer/JavaScript Developer",
+			"Duration": "July 2011 - Nov 2014",
+			"Responsibility": [
+				"Executing the design, development, troubleshooting and debugging of the software",
+				"Understanding user requirements, mapping them to system requirements and incorporating changes in the project as required.",
+				"Managing various technical aspects like software design, coding of modules, monitoring critical issues &amp; taking appropriate actions.",
+				"Carrying out interface redesigning and application maintenance, etc.",
+				"Develops, maintains, and supports applications for the enterprises Internet/intranet sites using a combination of GWT/Java and Microsoft ASP.net technologies.",
+				"Develop Client side applications using JQuery, JavaScript, HTML, and CSS/CSS3.",
+				"Programs all or selected components of Web applications. Documents components and applications.",
+				"Produce high quality, well-organized, well-documented and bug-free code.",
+				"Debug the applications using tools FireBug and IE Developer Tools",
+				"Working across for multiple online survey tools like confirmit, dimension and ASKIA used for survey programming.",
+				"Developing front end application for online based survey implemented across different tool {confirmit on demand, dimension, ASKIA,NEBU and surveygizmo}",
+				"Ensuring cross-browser compatibility across all the major browsers including IE7,8.",
+				"Test the software across multiple devices which includes iPad, iPhone, and tablets along with desktop &amp; laptops.",
+				"Develops automation techniques to enable end-user content publishing; programs, tests and implements mapped graphic images, forms and HTML pages; handles client browser support inquiries; maintains links to external sites and accuracy on internal links while ensuring up-to- date information.",
+				"Follow work allocation schedule and project plan.",
+				"Prioritize project tasks and seek assistance from Supervisor as applicable.",
+				"Create and update the documents of the projects developed.",
+				"Review project requirements and execute projects as per requirements following guidelines and deploying the tools/systems as applicable."
+			]
+		}
+	],
+	"Education":{
+		"Graduation":{
+			"University":"Tilak Maharashtra University, Pune",
+			"College":"Shailendra Education Society",
+			"Degree":"BCA",
+			"Year":"2011",
+			"Aggregate":"65%"
+		},
+		"HSC":{
+			"University":"Mumbai University, Maharashtra Board",
+			"College":"VIVA College of Arts, Commerce & Science",
+			"Degree":"HSC",
+			"Year":"2008",
+			"Aggregate":"55%"
+		},
+		"SSC":{
+			"University":"Mumbai University, Maharashtra Board",
+			"College":"Lokmanya High School",
+			"Degree":"SSC",
+			"Year":"2006",
+			"Aggregate":"72%"
+		}
+	},
+	"PersonalDetails":{}
+}
