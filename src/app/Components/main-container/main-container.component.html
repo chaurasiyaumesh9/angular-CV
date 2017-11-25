@@ -2,7 +2,7 @@
 	<div id="CandidateDetails">
 		<div class="jumbotron">
 			<h2 class="text-center"> Hello, My Name is {{ UserMetaData.CandidateDetails.Name }} </h2>
-			
+			<p> {{ UserMetaData.Objective }} </p>
 		</div>
 	</div>
 	<div id="Skills">
@@ -57,7 +57,7 @@
 
 	<div id="Experiences">
 		<div class="panel panel-default">
-			<div class="panel-heading"> <h4> Professional Experience </h4> </div>
+			<div class="panel-heading"> <h4> Work History </h4> </div>
 			<div class="panel-body">
 				<ul>
 					<li *ngFor="let experience of UserMetaData.Experiences">
@@ -85,6 +85,110 @@
 		<div class="panel panel-default">
 			<div class="panel-heading"> <h4> Education </h4> </div>
 			<div class="panel-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="graduation">
+							<div class="title">
+				    			<h4> Graduation </h4>
+				    		</div>
+				    		<ul class="graduation">
+								<li>
+									<div>
+										<label for=""> University : </label> {{ UserMetaData.Education.Graduation.University }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> College : </label> {{ UserMetaData.Education.Graduation.College }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> Degree : </label> {{ UserMetaData.Education.Graduation.Degree }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> Year : </label> {{ UserMetaData.Education.Graduation.Year }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> Aggregate : </label> {{ UserMetaData.Education.Graduation.Aggregate }}
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="hsc">
+							<div class="title">
+				    			<h4> HSC </h4>
+				    		</div>
+				    		<ul class="hsc">
+								<li>
+									<div>
+										<label for=""> University : </label> {{ UserMetaData.Education.HSC.University }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> College : </label> {{ UserMetaData.Education.HSC.College }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> Degree : </label> {{ UserMetaData.Education.HSC.Degree }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> Year : </label> {{ UserMetaData.Education.HSC.Year }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> Aggregate : </label> {{ UserMetaData.Education.HSC.Aggregate }}
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="ssc">
+							<div class="title">
+				    			<h4> SSC </h4>
+				    		</div>
+				    		<ul class="ssc">
+								<li>
+									<div>
+										<label for=""> University : </label> {{ UserMetaData.Education.SSC.University }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> College : </label> {{ UserMetaData.Education.SSC.College }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> Degree : </label> {{ UserMetaData.Education.SSC.Degree }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> Year : </label> {{ UserMetaData.Education.SSC.Year }}
+									</div>
+								</li>
+								<li>
+									<div>
+										<label for=""> Aggregate : </label> {{ UserMetaData.Education.SSC.Aggregate }}
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 				
 			</div>
 		</div>
