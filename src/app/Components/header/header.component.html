@@ -1,5 +1,5 @@
 <div class="container">
-	<nav class="navbar navbar-default">
+	<!-- <nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <a class="navbar-brand" href="#"> {{ candidateDetails.Designation }} </a>
@@ -13,10 +13,28 @@
 	    </ul>
 	    <div class="clearfix"></div>
 	  </div>
-	</nav>
+	</nav> -->
 
-	<!-- <div class="jumbotron">
-    	<h3 class="display-3"> My name is {{candidateDetails.Name}} </h3> 
-  	</div> -->
+	<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+		      <a class="navbar-brand" href="#"> {{candidateDetails.Designation}} </a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav pull-right">
+		         	<li class="active"><a href="#">Home</a></li>
+			      <li><a href="#Skills">Skills</a></li>
+			      <li><a href="#Tools">Tools</a></li>
+			      <li><a href="#Experiences">Experiences</a></li>
+			      <li><a href="#Education">Education</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
 </div>
 
